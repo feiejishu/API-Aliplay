@@ -64,7 +64,6 @@ Page({
             headers: {
               'content-type': 'application/x-www-form-urlencoded'
             },
-            // 期望返回的数据格式，默认json，支持json，text，base64
             dataType: 'json',
             // 调用成功的回调函数
             success: function (res) {
